@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            height: 50px;
+            width: 900px;
+            background-color: black;
+            margin: 200px auto;
+            color: #fff;
+            line-height: 50px;
+            font-size: 2rem;
+            font-family: Arial, Helvetica, sans-serif;
+            letter-spacing: 1px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .subsite {
+            height: 50px;
+            width: 900px;
+            background-color: black;
+            position: absolute;
+            top: 0;
+            left: 0;
+            animation: hem 7s 2;
+        }
+        
+        @keyframes hem {
+            0% {}
+            100% {
+                transform: translate(900px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        HELLO I AM HEMANT GADAGI IN TOPS TECHNOLOGY
+        <div class="subsite"></div>
+    </div>
+</body>
+
+</html>
